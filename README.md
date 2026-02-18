@@ -27,4 +27,4 @@ Producto 2 - Stock: 5
 
 Representación completa:
 Producto [ID: P001, Nombre: Mouse, Precio: 25.5, Stock: 10]
-Producto [ID: P002, Nombre: Laptop, Precio: 1200.0, Stock: 5]
+Producto [ID: P002, Nombre: Laptop, Precio: 1200.0, Stock: 5].
