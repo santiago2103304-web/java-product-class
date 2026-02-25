@@ -1,40 +1,45 @@
 Proyecto: Clase Product en Java
-Descripción
+ Descripción
 
 Este proyecto implementa una clase Product que representa un producto del mundo real.
 Incluye atributos, constructor por defecto, constructor parametrizado, métodos getter y setter,
 y la sobrescritura del método toString().
 
 Además, contiene una clase Main para demostrar su funcionamiento.
+ Estructura del proyecto
+src/
+ └─ main/
+     └─ java/
+         └─ com/
+             └─ example/
+                 ├─ Product.java
+                 └─ Main.java
+ Cómo compilar y ejecutar
 
-Cómo compilar y ejecutar
+ IMPORTANTE: ejecutar desde la raíz del proyecto
 
-Abrir la terminal en la carpeta del proyecto.
+1️ Compilar
+javac -d out src/main/java/com/example/*.java
 
-Compilar los archivos:
+Esto generará los .class dentro de la carpeta out.
 
-javac Product.java Main.java
+2️ Ejecutar
+java -cp out com.example.Main
+ Ejemplo de salida esperada
+Product 1 Name: Keyboard
+Product 2 Price: 1200.0
 
-Ejecutar el programa:
-
-java Main
-Ejemplo de salida esperada
-Producto 1 - Nombre: Mouse
-Producto 1 - Precio: 25.5
-Producto 2 - Nombre: Laptop
-Producto 2 - Stock: 5
-
-Representación completa:
-Producto [ID: P001, Nombre: Mouse, Precio: 25.5, Stock: 10]
-Producto [ID: P002, Nombre: Laptop, Precio: 1200.0, Stock: 5]
-Historial de Commits
-Feb 25, 2026
+Full Object Representation:
+Product [ID: P001, Name: Keyboard, Price: 45.99, Stock: 10]
+Product [ID: P002, Name: Laptop, Price: 1200.0, Stock: 5]
+ Historial de Commits
+ Feb 25, 2026
 
 Resuelto conflicto en Main.java
 
 Correccion
 
- Feb 18, 2026
+Feb 18, 2026
 
 Add README file with project description and execution instructions
 
